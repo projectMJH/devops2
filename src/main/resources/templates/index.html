@@ -23,9 +23,9 @@ p{
 </head>
 
 <body>
-  <th:block th:include="main/header"></th:block>
+  <th:block th:include="~{main/header}"></th:block>
   <div class="container">
-    <th:block th:include="${main_html}"></th:block>
+    <th:block th:include="~{${main_html}}"></th:block>
   </div>
 </body>
 </html>
